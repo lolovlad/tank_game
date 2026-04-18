@@ -17,3 +17,8 @@ TILE_SIZE = 30
 DEFAULT_LEVEL_NAME = "classic_arena"
 
 SERVER_PORT = 57991
+
+# Матч / раунды (общие с UI справки и логикой GameView)
+ROUND_COUNT = 5
+ROUND_WIN_TARGET = 3
+ROUND_RESTART_DELAY_SEC = 1.3
